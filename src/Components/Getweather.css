@@ -1,0 +1,78 @@
+
+.weatherApp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.current{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.current .form{
+    margin-top: 40px;
+    position: relative;
+    z-index: 10;
+    width: 300px;
+}
+.current .details{
+    margin-top: 20px;
+}
+.header {
+    background: rgb(192, 192, 252);
+    height: 250px;
+    color: chocolate;
+    
+}
+
+.header .head .head-info{
+    padding-top: 40px;
+    text-align: center;
+    
+}
+.header .head .head-info p{
+    margin-top: 0;
+    margin-bottom: unset;
+    
+} 
+.location_logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Low_High{
+    display: flex;
+    
+    justify-content: space-evenly;
+
+}
+.info_log img {
+    width: 80px;
+    height: 80px;
+    background-color:transparent;
+}
+/* .info_log {
+    padding-left: 180px;
+} */
+.wave{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    margin-top: 160px;
+    left: 0;
+    top: 0;
+    background: url(./wave.png);
+    /* animation: animate 10s linear infinite; */
+}
+.rise_set p{
+    margin-top: 0;
+    margin-bottom: unset;
+}
+
+.body_info{
+    padding-top: 10px;
+    
+}
