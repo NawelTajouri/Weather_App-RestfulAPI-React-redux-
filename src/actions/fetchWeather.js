@@ -4,7 +4,7 @@ import axios from "axios";
     return  function(dispatch) {
         const key = "878a16847a4a4ffbba1193730213009"
         // fetch (`http://api.weatherapi.com/v1/current.json?key=${key}&q=${city}&`)
-        fetch (`http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=${days}&aqi=${aqi}&alerts=${alerts}`)
+        fetch (`https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=${days}&aqi=${aqi}&alerts=${alerts}`)
         .then (res => {
             return res.json();
         })
